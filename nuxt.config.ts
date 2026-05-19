@@ -4,6 +4,11 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss'
   ],
 
+  // GitHub Pages configuration
+  // Custom domain: no subdirectory needed
+  baseURL: '/',
+  buildAssetsDir: '/',
+
   compatibilityDate: '2024-11-01',
 
   router: {
